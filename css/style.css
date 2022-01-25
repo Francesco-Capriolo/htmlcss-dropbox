@@ -23,14 +23,22 @@
 
 body {
     min-width: 1050px;
-    max-width: 1500px;
     font-family: sans-serif;
 }
 
 .pad-top {
-    padding-top: 40px;
+    padding-top: 50px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i {
+    font-weight: 900;
+}
 
 /* header */
 
@@ -57,7 +65,6 @@ div.nav-header li {
 a {
     color: black;
     padding: 0 1rem;
-    font-weight: bold;
     text-decoration-line: none;
 }
 
@@ -71,15 +78,15 @@ a {
 /* jumbotron */
 
 section.bg-lightblue {
-    height: 60vh;
+    height: 500px;
     background-color: rgba(180, 208, 231, 255);
 }
 
 section div.container-jumbotron {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
-    max-width: 1040px;
-    min-width: 910px;
+    max-width: 1100px;
+    min-width: 900px;
 }
 
 
@@ -93,11 +100,12 @@ div.img-jumbo {
 
 div.img-jumbo img {
     width: 100%;
+    max-width: 650px;
+    max-height: 350px;
 }
 
 h1 {
-    font-weight: 900;
-    font-size: xxx-large;
+    font-size: 3rem;
 }
 
 div.btn-margin {
@@ -113,5 +121,20 @@ div.img-jumbo {
 .arrow-down {
     font-weight: bold;
     font-size: x-large;
-    padding-top: 10px;
+    padding-top: 20px;
+}
+
+/* main */
+
+.main-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+#check2 {
+    margin-left: 20px;
 }
