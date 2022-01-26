@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+
+
 /* class uguali  */
 
 .clearfix::after {
@@ -23,7 +25,8 @@
 
 body {
     min-width: 1050px;
-    font-family: sans-serif;
+    font-family: 'Open Sans',
+        sans-serif;
 }
 
 .pad-top {
