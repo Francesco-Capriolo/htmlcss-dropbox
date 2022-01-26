@@ -50,9 +50,9 @@ header {
 
 header div.fixed {
     width: 100%;
+    position: fixed;
     padding: 0 1rem;
     min-width: 1100px;
-    position: fixed;
     background-color: white;
 }
 
@@ -79,14 +79,14 @@ a {
 .btn {
     color: white;
     font-size: 1em;
-    padding: 10px 1em;
+    padding: 10px 2em;
     background-color: blue;
 }
 
 /* jumbotron */
 
 section.bg-lightblue {
-    height: 500px;
+    height: 600px;
     background-color: rgba(180, 208, 231, 255);
 }
 
@@ -104,7 +104,6 @@ div.info-jumbo {
 
 div.img-jumbo {
     width: 65%;
-
 }
 
 div.img-jumbo img {
@@ -113,7 +112,8 @@ div.img-jumbo img {
 }
 
 h1 {
-    font-size: 3rem;
+    height: 8rem;
+    font-size: 3.5rem;
 }
 
 div.btn-margin {
@@ -127,18 +127,18 @@ div.img-jumbo {
 }
 
 .arrow-down {
+    padding-top: 20px;
     font-weight: bold;
     font-size: x-large;
-    padding-top: 20px;
 }
 
 /* main */
 
 .main-container {
     width: 80%;
-    max-width: 1000px;
-    min-width: 800px;
     margin: 0 auto;
+    min-width: 810px;
+    max-width: 1000px;
 }
 
 /* titolo inziale della struttura con i radiobox */
@@ -156,7 +156,7 @@ h2 {
 div.lateral-bill {
     height: 800px;
     font-size: 14px;
-    width: calc(96% / 3);
+    width: calc((100% / 3) - 2%);
 }
 
 div.lateral-bill,
@@ -165,8 +165,8 @@ div.contact {
 }
 
 div.top-bill {
-    border: 1px solid black;
     text-align: center;
+    border: 1px solid black;
 }
 
 div.bill {
@@ -174,7 +174,7 @@ div.bill {
 }
 
 .bill-center {
-    margin: 0 1rem;
+    margin: 0 3%;
 }
 
 span.month {
@@ -187,8 +187,8 @@ div.lateral-bill p span a {
 }
 
 div.bill ul li {
-    list-style: none;
     padding: 0.5rem;
+    list-style: none;
 }
 
 div.bill ul li i {
@@ -201,13 +201,12 @@ hr.row-grey {
     margin: 1rem 0.5rem;
 }
 
-/* pad per le varie tabelle */
+/* padding per le varie tabelle */
 
-div.top-bill,
-div.bill,
-div.contact,
+div.top-bill div.bill div.contact,
 h5,
 h4,
+h3,
 p,
 a,
 span {
@@ -216,10 +215,57 @@ span {
 
 /* tabella enterprise */
 
+div.info-contact {
+    width: 75%;
+}
+
 p.info-enterprise {
     font-size: 12px;
 }
 
 div.btn-contact {
+    width: 25%;
     font-size: 12px;
+}
+
+
+/* immagine partner */
+
+div.pad-left {
+    padding-left: 2rem;
+}
+
+a.btn-partner {
+    color: black;
+    font-size: 15px;
+    margin-left: 0.5rem;
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+/* cards */
+
+div.cards {
+    width: calc((100% / 3) - 2%);
+}
+
+div.card-middle {
+    margin: 0 3%;
+}
+
+div.cards img {
+    width: 100%;
+}
+
+div.cards span {
+    text-decoration-line: underline;
+    padding: 0;
+}
+
+div.info-client,
+div.info-client a {
+    color: blue;
+    text-decoration-line: underline;
+    padding: 2rem 0;
 }
