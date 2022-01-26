@@ -135,10 +135,11 @@ div.img-jumbo {
 .main-container {
     width: 80%;
     max-width: 1000px;
+    min-width: 800px;
     margin: 0 auto;
-    background-color: cadetblue;
-    height: 500px;
 }
+
+/* titolo inziale della struttura con i radiobox */
 
 h2 {
     font-size: 2rem;
@@ -146,4 +147,55 @@ h2 {
 
 #check2 {
     margin-left: 20px;
+}
+
+/* tre sezioni uguali della fattura */
+
+div.lateral-bill {
+    border: 1px solid black;
+    height: 600px;
+    font-size: 14px;
+    width: calc(96% / 3);
+    overflow: hidden;
+}
+
+div.lateral-bill div.top-bill {
+    border: 1px solid black;
+    text-align: center;
+}
+
+div.bill {
+    padding: 1rem;
+}
+
+.bill-center {
+    margin: 0 1rem;
+}
+
+.pad-min {
+    padding: 0.5rem;
+}
+
+span.month {
+    font-size: 0.8rem;
+    color: darkgrey;
+}
+
+div.lateral-bill p span a {
+    color: blue;
+}
+
+div.bill ul li {
+    list-style: none;
+    padding: 0.5rem;
+}
+
+div.bill ul li i {
+    color: blue;
+}
+
+hr.row-grey {
+    width: 20%;
+    color: grey;
+    margin: 1rem 0.5rem;
 }
