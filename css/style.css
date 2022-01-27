@@ -40,6 +40,10 @@ i {
     font-weight: 900;
 }
 
+ul li {
+    list-style: none;
+}
+
 /* header */
 
 header {
@@ -117,6 +121,15 @@ div.nav-header li:hover {
     border-bottom: 1px solid black;
 }
 
+a.btn:hover,
+a.btn-try:hover,
+a.btn-partner:hover {
+    transition-duration: 1s;
+    background-color: rgb(16, 179, 233);
+}
+
+
+
 /* jumbotron */
 
 section.bg-jumbotron {
@@ -127,13 +140,12 @@ section.bg-jumbotron {
     background-color: rgba(180, 208, 231, 255);
 }
 
-section div.container-jumbotron {
+.container-jumbotron {
     width: 90%;
     margin: 0 auto;
     min-width: 850px;
     max-width: 1300px;
 }
-
 
 div.info-jumbo {
     width: 35%;
@@ -225,7 +237,6 @@ div.lateral-bill p span a {
 
 div.bill ul li {
     padding: 0.5rem;
-    list-style: none;
 }
 
 div.bill ul li i {
@@ -421,9 +432,7 @@ div.btn-bottom-des {
 
 div.drop-question ul li {
     padding: 2rem 0;
-    list-style: none;
     border-top: 1px solid black;
-
 }
 
 div.drop-question ul li i {
@@ -440,4 +449,44 @@ div.drop-question ul li p {
 div.drop-question ul li:hover p {
     display: block;
     background-color: cornsilk;
+}
+
+div.drop-question:last-child {
+    border-bottom: 1px solid black;
+}
+
+/* footer */
+
+footer {
+    color: white;
+    margin-top: 100px;
+    height: 500px;
+    background-color: black;
+}
+
+div.footer-list {
+    width: 20%;
+    height: 250px;
+}
+
+div.footer-list h4 {
+    padding: 1rem 0;
+}
+
+div.footer-list li {
+    padding-top: 0.5rem;
+}
+
+.earth {
+    font-size: small;
+    color: grey;
+    border-top: 1px solid white;
+}
+
+
+/* hover */
+
+div.footer-list li:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
 }
